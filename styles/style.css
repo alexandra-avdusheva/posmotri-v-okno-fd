@@ -122,16 +122,6 @@ ol {
   color: rgb(255 255 255 / 0.7);
 }
 
-.content__video-card {
-  display: flex;
-  align-items: flex-start;
-}
-
-.content__card-link {
-  color: #fff;
-  text-decoration: none;
-}
-
 .search-form__textfield:focus {
   outline: none;
 }
