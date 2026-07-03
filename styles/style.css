@@ -107,8 +107,8 @@ ol {
 }
 
 .search-form__textfield {
-  width: 225px;
-  height: 27px;
+  min-width: 225px;
+  min-height: 27px;
   padding: 0;
   border: none;
   border-block: 1px solid #fff;
@@ -157,6 +157,7 @@ ol {
 
 .button {
   border: 1px solid #fff;
+  min-height: 34px;
   color: #fff;
   font-family: inherit;
   font-size: 18px;
@@ -184,7 +185,6 @@ button:focus {
 
 .search-form__submit-button {
   min-width: 194px;
-  min-height: 34px;
   align-self: end;
 }
 
@@ -198,6 +198,7 @@ button:focus {
 }
 
 .title {
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -222,7 +223,7 @@ button:focus {
 }
 
 .content__list-item {
-  padding: 3px;
+  padding: 0 3px;
 }
 
 .content__card-link {
@@ -258,12 +259,12 @@ button:focus {
 }
 
 .content__video-card-description-container {
-  width: 196px;
-  height: 103px;
+  max-width: 196px;
   flex-grow: 1;
 }
 
 .content__video-card-title {
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
@@ -271,6 +272,7 @@ button:focus {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-block-end: 6px;
 }
 
 .content__video-card-description {
@@ -290,7 +292,6 @@ button:focus {
 
 .more-button {
   width: 100%;
-  min-height: 34px;
   margin-top: 30px;
 }
 
